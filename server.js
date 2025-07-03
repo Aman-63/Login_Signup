@@ -1,8 +1,9 @@
-import express, { response } from "express";
+import express from "express";
 import bcrypt from "bcryptjs";
 import connectMongo from "./database.js";
 import UserInfo from "./user.js";
 import jwt from "jsonwebtoken";
+
 
 
 const exp = express();
@@ -11,6 +12,10 @@ connectMongo();
 
 exp.use(express.json());
 exp.use(express.static('FrontEnd'));
+
+exp.get('/', (request, response) => {
+  response.redirect('/Login.html');
+});
 
 
 exp.post('/api/Signup', async (request, response) => {

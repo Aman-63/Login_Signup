@@ -20,5 +20,5 @@ To run this website:
 Copy the code file from this repo.
 In your VS Code terminal:
 run 'npm install' to install the required dependencies and then run 'node server.js' to start the website.
-Follow the link in the terminal and manually add Login.html 
+Follow the link in the terminal.
 The project will run successfully on your system.
