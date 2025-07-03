@@ -18,6 +18,7 @@ Env file created to store the database connection string.
 To run this website:
 
 Copy the code file from this repo.
+Create a .env file and store info: connectionStr="mongodb atlas link" <br>
 In your VS Code terminal:
 run 'npm install' to install the required dependencies and then run 'node server.js' to start the website.
 Follow the link in the terminal.
