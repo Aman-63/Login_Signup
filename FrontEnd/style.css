@@ -1,0 +1,111 @@
+body {
+    font-family: 'Lucida Sans', sans-serif;
+    background-color: rgb(34, 1, 1);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: #212121;
+    width: 360px;
+    padding: 40px;
+    border-radius: 50px;
+    text-align: center;
+}
+
+.container h2 {
+    font-weight: bold;
+    font-size: 56px;
+    text-align: left;
+    margin-bottom: 30px;
+    color: #fcfcfc;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 360px;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid;
+    border-radius: 40px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+
+button {
+    width: 360px;
+    background-color: #083b7e;
+    color: white;
+    padding: 12px;
+    border: #1a73e8;
+    border-radius: 120px;
+    font-size: 18px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #1774d8;
+}
+
+p {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #5f6368;
+}
+
+h2 {
+    font-family: 'monospace';
+}
+
+h3 {
+    margin-top: 8px;
+    text-align: centre;
+    text-indent: 15px;
+    color: red;
+    font-size: 14.8px;
+    font-weight: 100;
+}
+
+.wlcmm {
+    background-color: #eddada;
+    text-align: center;
+}
+
+.wlcm {
+    background: white;
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #aaa;
+    width: 50%;
+}
+
+#btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    border: none;
+    color: black;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 150px;
+}
+
+#btn :hover {
+    background-color: #0056b3;
+}
+
+.bn{
+    width: 100%;
+}
+
+.bdy{
+    width: 100%;
+    background-color: white;
+}
